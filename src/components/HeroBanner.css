@@ -2,36 +2,38 @@
   position: absolute;
   right: 40px;
   top: 0px;
-  width: 700px;
-  height: 900px;
+  width: 600px;
+  height: 670px;
   margin-top: -300px;
 }
 
 @media screen and (max-width:1201px) {
   .hero-img {
     margin-top: -160px;
-    width: 600px;
-    height: 800px;
-  }
-}
-
-@media screen and (max-width:1098px) {
-  .hero-img {
     width: 500px;
-    height: 700px;
-  }
-}
-
-@media screen and (max-width:999px) {
-  .hero-img {
-    width: 400px;
-    height: 600px;
-  }
-}
-
-@media screen and (max-width:903px) {
-  .hero-img {
-    width: 300px;
     height: 500px;
+  }
+}
+
+@media screen and (max-width:965px) {
+  .hero-img {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width:890px) {
+  .hero-img {
+    margin-top: -100px;
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width:840px) {
+  .hero-img {
+
+    width: 350px;
+    height: 400px;
   }
 }
