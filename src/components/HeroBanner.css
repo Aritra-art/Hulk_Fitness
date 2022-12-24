@@ -37,3 +37,21 @@
     height: 400px;
   }
 }
+
+@media screen and (max-width:793px) {
+  .hero-img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width:741px) {
+  .hero-img {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width:579px) {
+  .hero-img {
+    display: none;
+  }
+}
