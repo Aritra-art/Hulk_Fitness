@@ -4,6 +4,7 @@ import { exerciseOptions, fetchData } from "../utils/fetchData";
 
 const SearchExercises = () => {
   const [search, setSearch] = useState("");
+  const [exercises, setExercises] = useState([]);
 
   const handleSearch = async () => {
     const exerciseData = await fetchData(
@@ -19,7 +20,10 @@ const SearchExercises = () => {
       )
         return exercise;
     });
-    console.log(searchedExercises);
+    setSearch("");
+    if (searchedExercises.length > 0) {
+      setExercises(searchedExercises);
+    }
   };
   return (
     <div>
